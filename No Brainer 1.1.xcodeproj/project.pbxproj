@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1DF6A660278D4A91004BDE28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6A65F278D4A91004BDE28 /* main.cpp */; };
+		1DF6A667278D4AB5004BDE28 /* PointOverloadedOperators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6A666278D4AB5004BDE28 /* PointOverloadedOperators.cpp */; };
+		1DF6A66A278D5308004BDE28 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6A668278D5307004BDE28 /* Point.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		1DF6A65C278D4A91004BDE28 /* No Brainer 1.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "No Brainer 1.1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF6A65F278D4A91004BDE28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DF6A666278D4AB5004BDE28 /* PointOverloadedOperators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointOverloadedOperators.cpp; sourceTree = "<group>"; };
+		1DF6A668278D5307004BDE28 /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		1DF6A669278D5307004BDE28 /* Point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				1DF6A65F278D4A91004BDE28 /* main.cpp */,
+				1DF6A668278D5307004BDE28 /* Point.cpp */,
+				1DF6A669278D5307004BDE28 /* Point.hpp */,
+				1DF6A666278D4AB5004BDE28 /* PointOverloadedOperators.cpp */,
 			);
 			path = "No Brainer 1.1";
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF6A66A278D5308004BDE28 /* Point.cpp in Sources */,
 				1DF6A660278D4A91004BDE28 /* main.cpp in Sources */,
+				1DF6A667278D4AB5004BDE28 /* PointOverloadedOperators.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
